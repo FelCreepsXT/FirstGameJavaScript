@@ -1,0 +1,14 @@
+.container{
+    width: 600px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container{
+    border: 3px solid blue;
+}
