@@ -5,7 +5,7 @@ class ObjectInstance{
         this.width = width;
         this.height = height;
         this.link = new Image();
-        this.link.src = `/img/${link}.png`;
+        this.link.src = `./img/${link}.png`;
     }
 
     drawImage(){

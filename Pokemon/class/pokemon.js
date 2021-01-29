@@ -1,7 +1,7 @@
 class Pokemon {
     constructor(link, name, life, exp, damage){
         this.link = new Image();
-        this.link.src = `/img/pokemon/${link}.png`;
+        this.link.src = `./img/pokemon/${link}.png`;
         this.name = name;
         this.life = life;
         this.exp = exp;

@@ -7,7 +7,7 @@ class PokemonInit extends ObjectInstance{
         this.color2 = 'trasparent';
         this.color3 = 'trasparent';
         this.botton = new Image();
-        this.botton.src = `/img/select.png`
+        this.botton.src = `./img/select.png`
         this.select = '';
     }
 
@@ -15,9 +15,9 @@ class PokemonInit extends ObjectInstance{
         this.name1 = new Image(); 
         this.name2 = new Image();
         this.name3 = new Image();
-        this.name1.src = `/img/pokemon/${name1}.png`;   
-        this.name2.src = `/img/pokemon/${name2}.png`;
-        this.name3.src = `/img/pokemon/${name3}.png`;
+        this.name1.src = `./img/pokemon/${name1}.png`;   
+        this.name2.src = `./img/pokemon/${name2}.png`;
+        this.name3.src = `./img/pokemon/${name3}.png`;
     }
 
     colorBoxPokemon(color1, color2, color3){
