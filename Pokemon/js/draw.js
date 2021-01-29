@@ -2,7 +2,7 @@ const containerCanvas = document.getElementById("container");
 const ctx = containerCanvas.getContext("2d");
 
 var img = new Image();
-img.src = '/img/scene.png'
+img.src = 'Pokemon/img/scene.png'
 
 function clearCanvas(){
     ctx.drawImage(img, 0, 0, containerCanvas.width, containerCanvas.height);
